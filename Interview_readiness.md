@@ -1,10 +1,13 @@
 ### What are 3 advantages of deploying using Model Serving methods Vs. deploying on GitHub Pages or HuggingFace for free?
-ewvkrnvlnr
+1. Efficiency: Model Serving is highly automated, allowing for a more consistent experience during deployment. This reduces the time spent on deployment and allows for models to be made available to users faster.
+2. Security:  Model Serving methods provide higher levels of security and control over your deployed models, compared to GitHub Pages and HuggingFace. You can better manage access to the model, and even restrict its usage. 
+3. Scalability: Model serving platforms are designed to handle large-scale deployments of machine learning models. They provide features like load balancing, auto-scaling, and distributed computing that make it easy to handle large volumes of requests.
 
 ### What is ML model deployment?
-
+Machine Learning model deployment is the process of taking a trained machine learning model and making it available for public or private use. Model deployment may involve the creation of an API or web service, the deployment of a model on cloud services such as Amazon Web Services, the deployment of a model on a mobile device, or the deployment of a model into an application. Model deployment helps to ensure that models are secure, easy to access, and continuously updated.
 
 ### What is Causal Inference and How Does It Work?
-
+Causal inference is a technique used in machine learning & statistics to identify and analyze the relationships between variables. It allows for the identification of causal relationships between variables, or the effects of changing one variable on another, , while controlling for other variables that may affect the relationship. It is based on the assumption that certain observed variables (the "causal variables") can affect the outcome of another variable (the "target variable"). For example, a causal inference can be used to identify the effects of a change in the economy on a business's profits. Causal inference uses a variety of methods, including probabilistic graphical models and experiments, to identify potential causal relationships.
 
 ### What is serverless deployment and how its compared with deployment on server?
+Serverless deployment is a type of cloud deployment, in which applications are deployed as services managed and operated by the cloud provider. It differs from traditional server deployments in that the server is managed by the cloud provider, which eliminates the need for a dedicated server and reduces maintenance. Serverless deployments are more flexible and scalable, as the cloud provider can scale up or down resources as needed. Additionally, serverless deployments are often more cost-effective than traditional server deployments, as the cloud provider only charges for the resources used. To sum up, in comparison to deployments on a server, serverless deployments offer more flexibility and scalability, as well as lower costs.
